@@ -77,38 +77,6 @@ docker-compose up -d --build
         {
             "tweet_id": "1611138353705156609",
             "text": "@Hitch_Slapping @DrJBhattacharya True"
-        },
-        {
-            "tweet_id": "1611128483547348992",
-            "text": "Some habits are hard to break lol.  Maybe I should just get bulletproof shoes."
-        },
-        {
-            "tweet_id": "1611112185895473163",
-            "text": "Ouch my feet!! https://t.co/4pqBY6rZDu"
-        },
-        {
-            "tweet_id": "1611111410846814208",
-            "text": "@cb_doge @MrAndyNgo @josephmenn @ExplainThisBob Will do. He is a good bot."
-        },
-        {
-            "tweet_id": "1611110531917828097",
-            "text": "@MrAndyNgo @josephmenn Joseph Menn is a contemptible liar. Twitter policy has always been to suspend accounts that clearly &amp; repeatedly incite violence."
-        },
-        {
-            "tweet_id": "1611047137705603072",
-            "text": "RT @Tesla: Tesla’s impact in California → https://t.co/4MudoNiCJG"
-        },
-        {
-            "tweet_id": "1611044282030518272",
-            "text": "@jonastyle_ Journalists should do shots every time there is a negative article about me …"
-        },
-        {
-            "tweet_id": "1611035401225113600",
-            "text": "Elon Musk should"
-        },
-        {
-            "tweet_id": "1611034662301995010",
-            "text": "Subtle, but I am beginning to suspect opinions differ on this matter …\n\nIf not McCarthy, then seriously who?"
         }
     ]
 

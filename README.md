@@ -11,20 +11,20 @@ docker-compose up -d --build
 
 **POST create parse session** - на входе список(не строка с разделителем!) ссылок на твиттер аккаунты (от 1 до 500): 
 
-Пример входных данных:
+    - Пример входных данных:
 
-[
-“https://twitter.com/tyler”,
-	“https://twitter.com/novogratz”,
-	“https://twitter.com/elonmusk”,
-	“https://twitter.com/MessariCrypto”,
-	“https://twitter.com/CryptoHayes”
-]
+    - [
+    - “https://twitter.com/tyler”,
+    - 	“https://twitter.com/novogratz”,
+    - 	“https://twitter.com/elonmusk”,
+    - 	“https://twitter.com/MessariCrypto”,
+    - 	“https://twitter.com/CryptoHayes”
+    - ]
 
-На выходе идентификатор по которому получаем статус парсинга каждого аккаунта из списка. Это значит, что по полученному идентификатору мы можем получить весь список входных данных из п.1 с текущим статусом парсинга.
+    - На выходе идентификатор по которому получаем статус парсинга каждого аккаунта из списка. Это значит, что по полученному идентификатору мы можем получить весь список входных данных из п.1 с текущим статусом парсинга.
 
-Пример: 
-{‘session_id’: 42}
+    - Пример: 
+    - {‘session_id’: 42}
 
 
 **GET: /api/users/status** - Получение статуса парсинга всего списка аккаунтов из п.1 по полученному идентификатору session_id): 

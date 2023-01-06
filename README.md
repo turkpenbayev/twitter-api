@@ -54,6 +54,7 @@ docker-compose up -d --build
 
 **GET: /api/user/{username}** - Получение данных твиттер аккаунта по его username:
     Получение данных твиттер аккаунта по его username
+    
     Пример:
     {
         "twitter_id": "20128733",
@@ -68,6 +69,7 @@ docker-compose up -d --build
 **GET: /api/tweets/{twitter_id}** - Получение 10 последних твитов аккаунта по его twitter_id:
     на входе twitter_id, полученный при парсинге
     на выходе список твитов
+    
     Пример:
     [
         {
